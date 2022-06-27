@@ -1098,10 +1098,13 @@ Heading Title / .headingTitle
 Intro Block / .introBlock
 -------------------------------------------------------------------*/
 
+@media (min-width: 700px)
+{
+
 .introBlock {
 	min-height: 100vh;
 }
-
+}
 /*------------------------------------------------------------------
 Intro Block Image / .ibImgHolder
 -------------------------------------------------------------------*/
@@ -5609,16 +5612,16 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .zground{
-	background-image:url(./banner2.png); background-size: cover; background-repeat:no-repeat;
+	background-image:url(./banner2.png) !important; background-size: cover !important; background-repeat:no-repeat;
 }
 @media (max-width:1024px){
 	.zground{
-		background-image:url(./banner3.png); background-size: cover; background-repeat:no-repeat;
+		background-image:url(./banner3.png) !important; background-size: cover !important; background-repeat:no-repeat;
 	}
 }
 @media (max-width:900px){
 	.zground{
-		background-image:url(./banner4.png); background-size: cover; background-repeat:no-repeat;
+		background-image:url(./banner4.png) !important; background-size: cover !important; background-repeat:no-repeat;
 	}
 }
 .ztext{
@@ -5627,12 +5630,16 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 @media (max-width:500px){
 	.zground{
-		background-image:url(./banner5.png); background-size: cover; background-repeat:no-repeat;
+		background-image:url(./banner5.png) !important; background-size: cover !important; background-repeat:no-repeat;
 	}    
 	.ztext{
 		width: 50%;
 	}
+ 
+}
+@media (max-width:700px){
 	.zspace{
 		margin-top: 9rem;
+		margin-bottom: 3rem;
 	}
 }
